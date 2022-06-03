@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,100&display=swap');
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 625px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2 {
+    flex-wrap: wrap;
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 44px;
+}
+
+.dados {
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 493px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+#mensagem {
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 493px;
+    height: 193px;
+    margin-bottom: 15px;
+}
+
+.imgcontato {
+    flex-wrap: wrap;
+    width: 444px;
+    height: 444px;
+}
+
+#botao {
+    flex-wrap: wrap;
+    background: #FF4081;
+    border: #FF4081;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: lowercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 108px;
+    height: 32px;
+}

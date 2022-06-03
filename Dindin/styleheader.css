@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+* {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2E948A;
+    height: 117px;
+    width: auto;
+
+}
+
+header .logoheader {
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 30%;
+
+}
+
+header .listaheader ul {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header .listaheader il {
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    margin: 30px;
+}
+
+.listaheader a {
+    flex-wrap: wrap;
+    text-decoration: none;
+
+}
+
+footer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E948A;
+    align-items: center;
+    height: 207px;
+
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.listafooter {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+footer div ul {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div ul a {
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+ body {
+    flex-wrap: wrap;
+ }
+.buttonfooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#buttonfooter1 {
+    flex-wrap: wrap;
+    width: 289px;
+    height: 51px;
+    margin-bottom: 13px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: #2E948A;
+    color: #FDFDFD;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+
+}
+
+#buttonfooter2 {
+    flex-wrap: wrap;
+    width: 289px;
+    height: 51px;
+    margin-bottom: 13px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: #2E948A;
+    color: #FDFDFD;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+
+}

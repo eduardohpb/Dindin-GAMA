@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,100&display=swap');
+
+* {
+
+    flex-wrap: wrap;
+}
+
+.containtop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.infotop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 81px;
+    flex-wrap: wrap;
+
+}
+
+.cursoinfo h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    width: 512px;
+    height: 126px;
+    color: #FF4081;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.cursoinfo p {
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    width: 461px;
+    height: 186px;
+    color: #000000;
+}
+
+.imginvestimento {
+    flex-wrap: wrap;
+    width: 380px;
+    height: 381px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.descricao h3 {
+    width: 512px;
+    height: 40px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+}
+
+.descricao p {
+    font-family: 'Ubuntu';
+    display: flex;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #000000;
+    flex-wrap: wrap;
+}
+
+.cardtext p {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}

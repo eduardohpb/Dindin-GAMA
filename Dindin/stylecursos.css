@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,100&display=swap');
+
+* {
+    flex-wrap: wrap;
+}
+body {
+    flex-wrap: wrap;
+}
+.sectioncursos{
+    flex-wrap: wrap;
+    margin-left: 82px;
+
+}
+.sectioncursos h1 {
+    display: flex;
+    width: 263px;
+    height: 69px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    flex-wrap: wrap;
+    margin-top: 81px;
+}
+
+.sectioncursos h3 {
+    width: 317px;
+    height: 23px;
+    color: #555555;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 95px;
+    flex-wrap: wrap;
+}
+
+
+.cardcursos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    height: 585px;
+    flex-wrap: wrap;
+
+}
+
+.cardinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cardinfo h2 {
+    width: 512px;
+    height: 40px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-bottom: 37px;
+    flex-wrap: wrap;
+}
+
+.cardinfo p {
+    width: 724px;
+    height: 105px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 53px;
+    flex-wrap: wrap;
+}
+
+#buttoncard {
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: #419488;
+    margin-bottom: 142px;
+    flex-wrap: wrap;
+}
+
+
+#img1 {
+    width: 380px;
+    height: 381px;
+    flex-wrap: wrap;
+
+}
+
+#img2 {
+    width: 380px;
+    height: 385px;
+    flex-wrap: wrap;
+
+}
+
+#img3 {
+    width: 380px;
+    height: 498px;
+    flex-wrap: wrap;
+}
